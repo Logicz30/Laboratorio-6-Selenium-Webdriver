@@ -56,7 +56,7 @@ public class AppTest
         System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("http://localhost/SegurosAuto/app/");
+        driver.get("http://localhost");
     }
     @Test
     @UseDataProvider ("proveedorDatos")
